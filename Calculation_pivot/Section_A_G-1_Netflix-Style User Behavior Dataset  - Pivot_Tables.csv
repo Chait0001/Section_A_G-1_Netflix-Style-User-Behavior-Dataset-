@@ -1,0 +1,75 @@
+ENGAGEMENT,,,RETENTION,,,REVENUE,
+Device Type vs Total Watch Time,,,Action Distribution,,,Subscription Plan vs Monthly Spend,
+device_type,SUM of watch_duration_minutes,,action,COUNT of watch_date,,subscription_plan,SUM of monthly_spend
+Smart TV,"84,211.10",,started,1619,,Premium+,"12,871.16"
+Laptop,"84,708.00",,completed,1664,,Basic,"27,861.79"
+Mobile,"85,494.20",,stopped,1694,,Standard,"51,674.31"
+Tablet,"86,112.80",,paused,1707,,Premium,"52,873.01"
+Desktop,"91,492.10",,Grand Total,6684,,Grand Total,"145,280.27"
+Grand Total,"432,018.20",,,,,,
+,,,Maturity Level vs Engagement,,,Subscription Plan vs Engagement,
+Genre vs Avg Watch Duration,,,maturity_level,AVERAGE of progress_percentage,,subscription_plan,AVERAGE of watch_duration_minutes
+genre_primary,AVERAGE of watch_duration_minutes,,Teens,49.28,,Premium+,61.20
+Family,59.11,,Kids,49.56,,Premium,64.06
+Music,59.15,,Family,49.58,,Standard,64.47
+History,61.37,,Adult,50.78,,Basic,67.63
+Comedy,61.98,,Grand Total,49.84,,Grand Total,64.63
+Western,61.99,,,,,,
+Thriller,62.41,,Active vs Inactive Users,,,Genre vs download,
+Action,62.43,,is_active,COUNTA of watch_date,,genre_primary,COUNTA of is_download
+Sport,62.80,,FALSE,965,,Thriller,237
+Mystery,63.24,,TRUE,5719,,Music,247
+Biography,63.73,,Grand Total,6684,,Sport,256
+Crime,64.24,,,,,Mystery,259
+Sci-Fi,64.30,,Download vs Watch Time,,,Drama,275
+Documentary,64.72,,is_download,AVERAGE of watch_duration_minutes,,Family,283
+Horror,65.06,,TRUE,62.06,,Fantasy,298
+Adventure,66.66,,FALSE,65.27,,Romance,305
+Romance,66.87,,Grand Total,64.63,,Horror,315
+Fantasy,68.51,,,,,Documentary,324
+War,68.99,,,,,Crime,350
+Animation,70.13,,,,,Comedy,358
+Drama,71.77,,,,,Biography,360
+Grand Total,64.63,,,,,Action,370
+,,,,,,Sci-Fi,372
+,,,,,,Western,376
+Device Type vs Completion Rate,,,,,,War,381
+device_type,AVERAGE of progress_percentage,,,,,History,386
+Smart TV,49.30,,,,,Animation,398
+Mobile,49.43,,,,,Adventure,534
+Laptop,49.88,,,,,Grand Total,6684
+Desktop,49.94,,,,,,
+Tablet,50.66,,,,,Genre vs IMDb Rating,
+Grand Total,49.84,,,,,genre_primary,AVERAGE of imdb_rating
+,,,,,,Action,5.94
+Content Type vs Completion %,,,,,,Adventure,6.48
+content_type,AVERAGE of progress_percentage,,6684,total user,,Animation,6.29
+Limited Series,48.33,,5719,Active Users,,Biography,6.05
+Documentary,49.62,,"432,018.20",Total Watch Time,,Comedy,6.34
+Movie,49.63,,85.56%,Active User %,,Crime,6.24
+Stand-Up Comedy,49.72,,64.63,Average Watch Duration,,Documentary,6.20
+Tv Series,50.76,,24.89%,Completion Rate,,Drama,6.80
+Grand Total,49.84,,21.74,Average Monthly Spend,,Family,6.19
+,,,"145,280.27",Total Revenue,,Fantasy,6.58
+Quality vs Watch Duration,,,45.09%,Premium Plan %,,History,6.12
+quality,AVERAGE of watch_duration_minutes,,,,,Horror,6.40
+HD,63.38,,,,,Music,6.29
+4K,64.86,,,,,Mystery,6.39
+Ultra HD,66.88,,,,,Romance,6.08
+SD,67.51,,,,,Sci-Fi,6.37
+Grand Total,64.63,,,,,Sport,6.25
+,,,,,,Thriller,6.40
+Netflix Original vs Engagement,,,,,,War,6.07
+is_netflix_original,AVERAGE of watch_duration_minutes,,,,,Western,6.34
+FALSE,64.48,,,,,Grand Total,6.29
+TRUE,64.99,,,,,,
+Grand Total,64.63,,,,,,
+,,,,,,,
+Age Group vs Watch Duration,,,,,,,
+age_group,AVERAGE of watch_duration_minutes,,,,,,
+18-25,61.40,,,,,,
+50+,63.19,,,,,,
+<18,64.27,,,,,,
+36-50,64.65,,,,,,
+26-35,66.21,,,,,,
+Grand Total,64.63,,,,,,
