@@ -189,11 +189,11 @@ Built using **Google Sheets (Pivot Tables + Slicers)**
 
 ## 👥 Team
 
-- Ishan Goyal – Strategy Lead  
+- Ishan Goyal – Research Lead  
 - Naman – Data Lead  
 - Yashi – Analysis & Dashboard Lead  
 - Neelanshu Karn – PPT Lead  
-- Puneet – PPT Lead  
+- Puneet – Strategy Lead  
 - **Chaitanya – Project Lead**
 
 ---
