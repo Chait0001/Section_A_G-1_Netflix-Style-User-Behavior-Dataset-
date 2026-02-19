@@ -100,7 +100,7 @@ Columns were converted to appropriate formats:
 
 ---
 
-## 🗑️ Column Removal with Justification
+## Column Removal with Justification
 
 The following columns were removed because they did not support engagement or revenue optimization goals.
 
