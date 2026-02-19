@@ -1,4 +1,4 @@
-## 📊 Dataset Description
+## Dataset Description
 
 **Source:** `Raw_Dataset.csv`
 **Initial Sample:** 10,000 rows
@@ -6,13 +6,13 @@
 
 ---
 
-## 🧹 Data Cleaning & Preparation
+## Data Cleaning & Preparation
 
 The dataset was cleaned and transformed to ensure consistency, reliability, and suitability for business insights related to **user engagement and subscription revenue optimization**.
 
 ---
 
-### 🔹 Handling Missing Values
+### Handling Missing Values
 
 Missing values were treated carefully to maintain dataset size and distribution.
 
@@ -27,25 +27,25 @@ Rows were **not deleted** to preserve dataset size and distribution.
 
 ---
 
-### 🔹 Age Filtering
+### Age Filtering
 
 Invalid or unrealistic age values were filtered to ensure meaningful demographic insights.
 
 ---
 
-### 🔹 Removing Invalid Values
+### Removing Invalid Values
 
 Records with incorrect or inconsistent entries were removed to improve data quality.
 
 ---
 
-### 🔹 Duplicate Handling
+### Duplicate Handling
 
 Duplicate records were identified and removed to prevent repeated viewing activity from biasing analysis.
 
 ---
 
-### 🔹 Text Standardization
+### Text Standardization
 
 Categorical columns were standardized by:
 
@@ -63,7 +63,7 @@ Categorical columns were standardized by:
 
 ---
 
-### 🔹 Boolean Standardization
+### Boolean Standardization
 
 The following columns were standardized to consistent TRUE/FALSE values:
 
@@ -74,7 +74,7 @@ This ensured consistency in filtering and aggregation.
 
 ---
 
-### 🔹 Rating Transformation
+### Rating Transformation
 
 The original rating column contained certification labels.
 A new column **maturity_level** was created for better audience segmentation.
@@ -90,7 +90,7 @@ This improves visualization clarity and segmentation analysis.
 
 ---
 
-### 🔹 Data Type Formatting
+### Data Type Formatting
 
 Columns were converted to appropriate formats:
 
@@ -114,7 +114,7 @@ The following columns were removed because they did not support engagement or re
 * The analysis focuses on engagement and revenue, not user review behavior.
 * IMDb rating already represents content quality.
 
-✅ **Decision:** Removed due to high nulls and redundancy.
+**Decision:** Removed due to high nulls and redundancy.
 
 ---
 
@@ -126,7 +126,7 @@ The following columns were removed because they did not support engagement or re
 * Adds complexity with minimal additional insight.
 * Primary genre is sufficient for performance analysis.
 
-✅ **Decision:** Removed to simplify analysis.
+**Decision:** Removed to simplify analysis.
 
 ---
 
@@ -137,7 +137,7 @@ The following columns were removed because they did not support engagement or re
 * 6410 null values.
 * Relevant to studio financial performance, not streaming engagement.
 
-✅ **Decision:** Removed as it does not support engagement or revenue optimization.
+**Decision:** Removed as it does not support engagement or revenue optimization.
 
 ---
 
@@ -148,7 +148,7 @@ The following columns were removed because they did not support engagement or re
 * 6746 null values.
 * Streaming platforms generate revenue through subscriptions, not box office.
 
-✅ **Decision:** Removed due to irrelevance to the business model.
+**Decision:** Removed due to irrelevance to the business model.
 
 ---
 
@@ -159,7 +159,7 @@ The following columns were removed because they did not support engagement or re
 * 7272 null values.
 * Applicable only to TV shows.
 
-✅ **Decision:** Removed to maintain consistency.
+**Decision:** Removed to maintain consistency.
 
 ---
 
@@ -170,11 +170,11 @@ The following columns were removed because they did not support engagement or re
 * 6971 null values.
 * Relevant only for series.
 
-✅ **Decision:** Removed to maintain dataset consistency.
+**Decision:** Removed to maintain dataset consistency.
 
 ---
 
-## 🚫 Additional Columns Removed
+## Additional Columns Removed
 
 These columns did not support engagement or revenue insights:
 
@@ -192,7 +192,7 @@ These columns did not support engagement or revenue insights:
 
 ---
 
-## ✅ Final Dataset Structure
+## Final Dataset Structure
 
 After preprocessing:
 
