@@ -1,6 +1,6 @@
-# 📊 Netflix-Style User Behavior Analysis (OTT Sector)
+# Netflix-Style User Behavior Analysis (OTT Sector)
 
-## 🚀 Project Overview
+## Project Overview
 
 This project analyzes a Netflix-style OTT user behavior dataset to uncover actionable insights related to user engagement, churn, and revenue optimization.
 
@@ -8,7 +8,7 @@ The goal was to transform raw behavioral data into a strategic growth roadmap by
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Streaming platforms collect massive amounts of data but struggle to identify:
 
@@ -25,7 +25,7 @@ Key Issues Identified:
 
 ---
 
-## 📂 Dataset Information
+## Dataset Information
 
 - **Source:** Kaggle – Netflix-Style User Behavior Dataset  
 - **Raw Records:** 10,000  
@@ -53,7 +53,7 @@ Key Issues Identified:
 
 ---
 
-## 🧹 Data Cleaning & Preparation
+## Data Cleaning & Preparation
 
 - Mode imputation for Gender
 - Median imputation for Age & Household Size
@@ -65,7 +65,7 @@ Key Issues Identified:
 
 ---
 
-## 📊 KPI Framework
+## KPI Framework
 
 | KPI | Formula | Business Purpose |
 |------|----------|----------------|
@@ -76,18 +76,18 @@ Key Issues Identified:
 
 ---
 
-## 🔎 Key Insights
+## Key Insights
 
-### 💰 Premium+ Tier Underperformance
+### Premium+ Tier Underperformance
 - Generates only ~$12.8k revenue (~9%)
 - Standard Plan generates ~$51.6k
 - Clear price–value mismatch
 
-### 🖥 Desktop Dominance
+### Desktop Dominance
 - Desktop users drive highest watch time (~91k mins)
 - Contradicts mobile-first assumption
 
-### 🎭 Genre Stickiness
+### Genre Stickiness
 High Engagement:
 - Drama (~71.8 mins avg)
 - Animation (~70.1 mins avg)
@@ -96,18 +96,18 @@ Low Engagement:
 - Music
 - Family
 
-### 👥 Golden Cohort
+### Golden Cohort
 Users aged **26–35**
 - Highest retention (>85%)
 - Highest Customer Lifetime Value
 
-### ⚠ Discovery Bottleneck
+### Discovery Bottleneck
 - “Stopped” sessions ≈ “Completed” sessions
 - Indicates weak recommendation alignment
 
 ---
 
-## 📈 Advanced Segmentation
+## Advanced Segmentation
 
 ### Golden Segment
 - Age 26–35
@@ -122,7 +122,7 @@ Users aged **26–35**
 
 ---
 
-## 🖥 Interactive Dashboard
+## Interactive Dashboard
 
 Built using **Google Sheets (Pivot Tables + Slicers)**
 
@@ -136,7 +136,7 @@ Built using **Google Sheets (Pivot Tables + Slicers)**
 
 ---
 
-## 💡 Strategic Recommendations
+## Strategic Recommendations
 
 1. **Restructure Premium+**
    - Add exclusive bundles (early access, premium-only content)
@@ -160,7 +160,7 @@ Built using **Google Sheets (Pivot Tables + Slicers)**
 
 ---
 
-## 📉 Business Impact Estimation
+## Business Impact Estimation
 
 - ~15% CAC reduction via better demographic targeting
 - Diversified revenue by reviving Premium+
@@ -169,7 +169,7 @@ Built using **Google Sheets (Pivot Tables + Slicers)**
 
 ---
 
-## ⚠ Limitations
+## Limitations
 
 - Synthetic dataset
 - Missing values (10–15%)
@@ -178,7 +178,7 @@ Built using **Google Sheets (Pivot Tables + Slicers)**
 
 ---
 
-## 🔮 Future Scope
+## Future Scope
 
 - Predictive churn modeling
 - Pricing A/B testing
@@ -187,7 +187,7 @@ Built using **Google Sheets (Pivot Tables + Slicers)**
 
 ---
 
-## 👥 Team
+## Team
 
 - Ishan Goyal – Research Lead  
 - Naman – Data Lead  
@@ -198,7 +198,7 @@ Built using **Google Sheets (Pivot Tables + Slicers)**
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 
 - Google Sheets
 - Pivot Tables
@@ -208,6 +208,6 @@ Built using **Google Sheets (Pivot Tables + Slicers)**
 
 ---
 
-## 📌 Final Takeaway
+## Final Takeaway
 
 This project demonstrates how behavioral analytics can uncover hidden revenue leaks, optimize pricing structures, and improve retention strategy in the OTT industry.
